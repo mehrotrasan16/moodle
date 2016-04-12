@@ -848,8 +848,8 @@ class manager {
                 'context' => $context,
                 'relateduserid' => $userid,
                 'other' => array(
-                    'originalusername' => fullname($USER, true),
-                    'loggedinasusername' => fullname($user, true)
+                    'originalusername' => $USER->username,
+                    'loggedinasusername' => $USER->username
                 )
             )
         );
