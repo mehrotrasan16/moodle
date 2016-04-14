@@ -849,7 +849,7 @@ class manager {
                 'relateduserid' => $userid,
                 'other' => array(
                     'originalusername' => $USER->username,
-                    'loggedinasusername' => $USER->username
+                    'loggedinasusername' => $USER->alternatename
                 )
             )
         );
